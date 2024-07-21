@@ -15,3 +15,9 @@ nmap -sV -O -p21,22,80,111,2049,46873,47540,50884,56455 10.10.146.229
 
 ## Browsing through the website, there are four main pages: Home, Administration, Login, and Sign up. 
 ## The Home page says: Welcome Guest This site is still under development!
+
+
+
+
+
+## On the login form, I tried to login with admin/admin and it said my password was incorrect. This led me to believe that the username was correct. To test this theory, I tried to login with Johnny/password and it said my username was incorrect. Great! Since I know admin is the user name, I can try to brute force the password. 
