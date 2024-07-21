@@ -3,5 +3,5 @@
 
 ## I begin with an nmap scan for port discovery:
 ```
-nmap -p- -T5 - -Pn 10.10.146.229
+nmap -p- -T5 -Pn 10.10.146.229
 ```
