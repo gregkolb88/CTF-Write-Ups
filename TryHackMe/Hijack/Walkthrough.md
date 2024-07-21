@@ -10,7 +10,7 @@ INSERT SCREENSHOT HERE
 
 ## Next I run an nmap scan for those ports to discover version and operating system. 
 ```
-nmap -sC -sV -O -p21,22,80,111,2049,46873,47540,50884,56455 10.10.146.229
+nmap -sV -O -p21,22,80,111,2049,46873,47540,50884,56455 10.10.146.229
 ```
 
 ## Browsing through the website, there are four main pages: Home, Administration, Login, and Sign up. 
