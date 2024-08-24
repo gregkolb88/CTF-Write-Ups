@@ -9,8 +9,6 @@ I begin by running two nmap scans. This first is run on all ports, ensuring I do
 ```
 nmap -T5 -Pn -p- 10.10.102.184
 ```
-
-
 ```
 nmap -sV -O -p22,80 10.10.102.184
 ```
