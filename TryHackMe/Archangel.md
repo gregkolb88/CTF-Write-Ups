@@ -15,5 +15,5 @@ nmap -T5 -Pn -p- 10.10.102.184
 nmap -sV -O -p22,80 10.10.102.184
 ```
 
-
+Question 1 Find a different hostname
 ![image](https://github.com/user-attachments/assets/bd68d775-75c0-4b03-a972-c3240b73275d)
