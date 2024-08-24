@@ -9,6 +9,7 @@ I begin by running two nmap scans. This first is run on all ports, ensuring I do
 ```
 nmap -T5 -Pn -p- 10.10.102.184
 ```
+![image](https://github.com/user-attachments/assets/77e022e2-bcc5-47e3-8e40-745a2c4141ff)
 
 ```
 nmap -sV -O -p22,80 10.10.102.184
