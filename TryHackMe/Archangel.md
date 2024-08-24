@@ -19,7 +19,10 @@ Find a different hostname
 The answer to this is right up at the top of the main webpage. 
 ![image](https://github.com/user-attachments/assets/bd68d775-75c0-4b03-a972-c3240b73275d)
 
+I added the newly discovered hostname to the hosts file then navigated to that webpage. The flag is found with a website showing the page is under development. 
 Find flag 1
+![image](https://github.com/user-attachments/assets/04933dea-d5af-48ea-ada8-6f7fdf03ad92)
+
 Look for a page under development
 Find flag 2
 Get a shell and find the user flag
