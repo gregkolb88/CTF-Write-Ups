@@ -32,6 +32,8 @@ feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-
 
 The first website gives me a message with the words Lian_Yu bolded and hints at a code word that is not there. 
 ![image](https://github.com/user-attachments/assets/c72de9c7-45dc-4ea4-aa95-3895080b66bf)
+<img width="516" alt="image" src="https://github.com/user-attachments/assets/caf56fa2-a9d9-4cf0-bb5b-7f6f982d5fc2">
+
 ![image](https://github.com/user-attachments/assets/460d8574-6db1-49c8-8290-c65fd79e7c8c)
 ![image](https://github.com/user-attachments/assets/0e1f833c-6776-4229-83be-fd15808ce620)
 ![image](https://github.com/user-attachments/assets/1da1365e-c0ee-4e95-b157-eba38dc38e29)
