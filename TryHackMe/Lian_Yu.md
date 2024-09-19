@@ -149,10 +149,11 @@ After multiple tries, I am finally successful logging in. It turns out, the logi
 ```
 ssh slade@10.10.195.108
 ```
+Login is successful and running the ls and cat commands provides me with the first flag. 
 
 ![image](https://github.com/user-attachments/assets/77a8aacc-7bf3-493f-a4f4-0817ca7e30a7)
 
-
+I am unable to change directories however running the sudo -l command gives me a way to escalate privileges
 
 <img width="286" alt="image" src="https://github.com/user-attachments/assets/a04625cf-f493-4808-9a2a-bfedb9ae85e5">
 
@@ -162,8 +163,11 @@ Navigating to GTFOBins (https://gtfobins.github.io/) I am able to use pkexec to 
 
 
 ![image](https://github.com/user-attachments/assets/0e488525-c242-463e-83eb-3a28c751598e)
+
 ```
 sudo pkexec /bin/sh
 ```
+
+Privilege escalation successful and I have the final flag. That was a nice beginner level CTF themed around a show I enjoy. 
 
 <img width="647" alt="image" src="https://github.com/user-attachments/assets/b269c366-f353-49af-8d86-f5db2ba1eb6c">
