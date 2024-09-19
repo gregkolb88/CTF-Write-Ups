@@ -162,7 +162,7 @@ cat user.txt
 
 <img width="286" alt="image" src="https://github.com/user-attachments/assets/a04625cf-f493-4808-9a2a-bfedb9ae85e5">
 
-I am unable to change directories however running the sudo -l command gives me a way to escalate privileges
+I am unable to change directories to root however, running the sudo -l command gives me a way to escalate privileges
 
 ```
 cd /root
