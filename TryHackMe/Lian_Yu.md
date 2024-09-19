@@ -30,7 +30,7 @@ Next, I navigate to the website to look for any ways forward.
 
 ![image](https://github.com/user-attachments/assets/4771f5e1-c27f-49fa-8b56-ac9c92edaefd)
 
-Looking at the source code, I notice the word "arrow" is bolded. Perhaps this could be a password?
+Looking at the source code, I notice the word "arrow" is bolded. Perhaps this could be something useful?
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/606321cb-a1db-486b-adfe-27aabc5cd011">
 
