@@ -121,32 +121,49 @@ The picture now seems to indicat that it has something to do with the password.
 
 ![image](https://github.com/user-attachments/assets/8bc30e27-9004-40fe-baef-d9983f3735fd)
 
-I ran exiftool on all three images with no luck. Next I tried to use steghide which turned out to be successful on the aa.jpg file. 
+I ran exiftool on all three images with no luck. Next I tried to use steghide which turned out to be successful on the aa.jpg file and gave me a .zip file. 
 
 ![image](https://github.com/user-attachments/assets/6e68a253-f36b-4c68-abb3-ee241e348342)
+
+I unzip the ss.zip file which gives me two more files. 
 
 ```
 unzip ss.zip
 ```
+
+Reading the passwd.txt file 
 ```
 cat passwd.txt
 ```
 
 ![image](https://github.com/user-attachments/assets/b2f4a6b2-3c6c-4a1e-a493-35743004b434)
 
+Reading the s**** file provides me with the password for SSH login. This combined with the username I found earlier should grant me access. 
+
 ```
 cat s****
 ```
 <img width="95" alt="image" src="https://github.com/user-attachments/assets/4334ba1a-7b48-4fa9-b186-8b5f525c6133">
 
+After multiple tries, I am finally successful logging in. It turns out, the login name is not capitalized. It's the little things. 
+```
+ssh slade@10.10.195.108
+```
+
+![image](https://github.com/user-attachments/assets/77a8aacc-7bf3-493f-a4f4-0817ca7e30a7)
 
 
 
+<img width="286" alt="image" src="https://github.com/user-attachments/assets/a04625cf-f493-4808-9a2a-bfedb9ae85e5">
+
+![image](https://github.com/user-attachments/assets/47025cd9-e6e3-4b4c-90c3-38e346166026)
+
+navigating to GTFOBins (https://gtfobins.github.io/) I am able to use the 
 
 
+![image](https://github.com/user-attachments/assets/0e488525-c242-463e-83eb-3a28c751598e)
+```
+sudo pkexec /bin/sh
+```
 
-
-
-vigilante
-
-!#th3h00d
+<img width="647" alt="image" src="https://github.com/user-attachments/assets/b269c366-f353-49af-8d86-f5db2ba1eb6c">
