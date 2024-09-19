@@ -106,11 +106,18 @@ Opening all of the pictures, two out of the three seem like ordinary pictures th
 
 After doing some research, it seems like I can adjust the hex code in an editor to potentially fix this. 
 
-before
+This is what the hex code was showing. I did indeed need to change the header. 
+
+```
+hexedit Leave_me_alone.png
+```
 
 ![image](https://github.com/user-attachments/assets/195df849-7955-4c1d-9299-6ee7261bfd04)
 
-after
+Here is what the hex code should look like to reflect a .png file. 
+
+![image](https://github.com/user-attachments/assets/a9bfb286-12c5-422e-bc9a-786bcea16629)
+
 
 ![image](https://github.com/user-attachments/assets/1e9a61a5-9f28-4db0-b75b-0fd38e37bfc0)
 
