@@ -31,6 +31,10 @@ exiftool Leave_me_alone.png
 exiftool Queen's_Gambit.png
 ```
 
+```
+hexedit Leave_me_alone.png
+```
+
 QUESTIONS
 What is the Web Directory you found?
 what is the file name you found?
