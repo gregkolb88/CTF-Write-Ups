@@ -18,6 +18,7 @@ nmap -p21,22,80,111,46392 -sV -O 10.10.195.108
 ![image](https://github.com/user-attachments/assets/e54e596c-a558-4edb-8179-e53857c2dfdd)
 
 Next, I navigate to the website to find any clues. 
+
 ![image](https://github.com/user-attachments/assets/4771f5e1-c27f-49fa-8b56-ac9c92edaefd)
 
 Looking at the source code, I notice the word "arrow" is bolded. Perhaps this could be a password?
@@ -42,12 +43,17 @@ The second sub directory (http://10.10.195.108/island/2***/) gives me a message 
 
 ![image](https://github.com/user-attachments/assets/0e1f833c-6776-4229-83be-fd15808ce620)
 
+Checking the source code provides me with a message hinting that I should be looking for ".ticket". The period in that hint seems like it might be pointing to a possible file extension?
+
 ![image](https://github.com/user-attachments/assets/1da1365e-c0ee-4e95-b157-eba38dc38e29)
 
+I run feroxbuster again on the web server, this time adding the -x option to search for file extensions. 
 
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x ticket
 ```
+
+
 
 ```
 exiftool aa.jpg
