@@ -125,7 +125,7 @@ I ran exiftool on all three images with no luck. Next I tried to use steghide wh
 
 ![image](https://github.com/user-attachments/assets/6e68a253-f36b-4c68-abb3-ee241e348342)
 
-I unzip the ss.zip file which gives me two more files. 
+I unzip the ss.zip file which gives me two more files and the answer to the fourth question (what is the file name with SSH password?). 
 
 ```
 unzip ss.zip
