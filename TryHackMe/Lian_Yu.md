@@ -12,11 +12,23 @@ nmap -p21,22,80,111,46392 -sV -O 10.10.10.10
 ```
 
 ```
-feroxbuster -u http://10.10.10.10
+feroxbuster -u http://10.10.142.54 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+```
+
+```
+feroxbuster -u http://10.10.142.54 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x ticket
 ```
 
 ```
 exiftool aa.jpg
+```
+
+```
+exiftool Leave_me_alone.png
+```
+
+```
+exiftool Queen's_Gambit.png
 ```
 
 QUESTIONS
