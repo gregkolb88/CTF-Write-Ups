@@ -63,8 +63,11 @@ I run feroxbuster again on the web server, this time adding the -x option to sea
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x ticket
 ```
+<img width="895" alt="image" src="https://github.com/user-attachments/assets/cab66e53-8b33-4a7a-9d78-65cc8fc7fa85">
 
+This was successful. Navigating to this subdirectory gives me what looks to be an encrypted password. 
 
+![image](https://github.com/user-attachments/assets/3bd97948-f993-472b-b4ed-98c1423da49c)
 
 ```
 exiftool aa.jpg
