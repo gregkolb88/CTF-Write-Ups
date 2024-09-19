@@ -27,6 +27,11 @@ To answer the first question, I run feroxbuster to scan the web server for a lis
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 ```
+![image](https://github.com/user-attachments/assets/c72de9c7-45dc-4ea4-aa95-3895080b66bf)
+![image](https://github.com/user-attachments/assets/460d8574-6db1-49c8-8290-c65fd79e7c8c)
+![image](https://github.com/user-attachments/assets/0e1f833c-6776-4229-83be-fd15808ce620)
+![image](https://github.com/user-attachments/assets/1da1365e-c0ee-4e95-b157-eba38dc38e29)
+
 
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x ticket
