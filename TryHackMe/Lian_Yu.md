@@ -165,6 +165,10 @@ cat user.txt
 I am unable to change directories however running the sudo -l command gives me a way to escalate privileges
 
 ```
+cd /root
+```
+
+```
 sudo -l
 ```
 
