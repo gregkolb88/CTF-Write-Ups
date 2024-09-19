@@ -8,6 +8,7 @@ Next I run two nmap scans. The first one I use -p- to scan all ports instead of 
 ```
 nmap -p- -T5 -Pn 10.10.195.108
 ```
+![image](https://github.com/user-attachments/assets/d504d4b1-9c62-4d19-8991-627690fb79ec)
 
 
 Then I rescan the live ports using -sV to find the version and -O to find the operating system. 
