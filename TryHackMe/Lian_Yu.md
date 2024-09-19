@@ -2,6 +2,8 @@ I first ping the system to verify it's up and running.
 ```
 ping 10.10.195.108
 ```
+![image](https://github.com/user-attachments/assets/064ab265-36c3-470c-a3c3-7bc8b6554c50)
+
 Next I run two nmap scans. The first one I use -p- to scan all ports instead of the top 1000, I use -T5 to speed up the scan and use -Pn to skip host discovery. 
 ```
 nmap -p- -T5 -Pn 10.10.195.108
@@ -44,4 +46,4 @@ user.txt
 root.txt
 
 SCREENSHOTS
-![image](https://github.com/user-attachments/assets/720d279b-eac7-479e-ac1a-f4a0290b9086)
+
