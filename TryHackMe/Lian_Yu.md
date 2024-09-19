@@ -79,9 +79,11 @@ Next, I login into FTP with the credentials we found earlier.
 ftp 10.10.195.108
 ```
 
-After logging into FTP and listing all the files, I am presented with four notable files (.other_user, Leave_me_alone.png, Queen's_Gambit.png, and aa.jpg). I get them all for further evaluation. 
+After logging into FTP and listing all the files, I am presented with four notable files (.other_user, Leave_me_alone.png, Queen's_Gambit.png, and aa.jpg). 
 
 ![image](https://github.com/user-attachments/assets/08a7ed69-e210-4a88-8960-f698b100e2b4)
+
+I get them all for further evaluation. 
 
 ![image](https://github.com/user-attachments/assets/a5db7548-70d4-42b2-9568-c6595f80af4a)
 
