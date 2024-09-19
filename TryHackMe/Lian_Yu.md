@@ -28,6 +28,8 @@ To answer the first question, I run feroxbuster to scan the web server for a lis
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 ```
+<img width="898" alt="image" src="https://github.com/user-attachments/assets/9c070390-8d6b-42b3-9850-0cd1e2a7bbc1">
+
 ![image](https://github.com/user-attachments/assets/97dc9541-d6ea-429f-a182-0e46b73ce6fd)
 
 The first subdirectory (http://10.10.195.108/island/) gives me a message with the words Lian_Yu bolded and hints at a code word that is not there.
