@@ -117,7 +117,7 @@ Here is what the hex code should look like to reflect a .png file.
 
 ![image](https://github.com/user-attachments/assets/a9bfb286-12c5-422e-bc9a-786bcea16629)
 
-The picture now seems to indicat that it has something to do with the password. 
+The picture now seems to give me the password to ssh in. After trying it with no luck, I went to look into the pictures further as only one of them has provided useful so far. 
 
 ![image](https://github.com/user-attachments/assets/8bc30e27-9004-40fe-baef-d9983f3735fd)
 
