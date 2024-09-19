@@ -118,20 +118,14 @@ Here is what the hex code should look like to reflect a .png file.
 
 ![image](https://github.com/user-attachments/assets/a9bfb286-12c5-422e-bc9a-786bcea16629)
 
-
-![image](https://github.com/user-attachments/assets/1e9a61a5-9f28-4db0-b75b-0fd38e37bfc0)
-
+The picture now seems to indicat that it has something to do with the password. 
 
 ![image](https://github.com/user-attachments/assets/8bc30e27-9004-40fe-baef-d9983f3735fd)
 
-```
-exiftool aa.jpg
-```
+
 ![image](https://github.com/user-attachments/assets/5ffa5d0f-a92e-4914-a658-f3119de2f00e)
 
-```
-exiftool Leave_me_alone.png
-```
+
 
 ```
 exiftool Queen's_Gambit.png
