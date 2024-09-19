@@ -14,7 +14,7 @@ Next I run two nmap scans. The first one I use -p- to scan all ports instead of 
 ```
 nmap -p- -T5 -Pn 10.10.195.108
 ```
-## two 
+## 2: two 
 
 ![image](https://github.com/user-attachments/assets/d504d4b1-9c62-4d19-8991-627690fb79ec)
 
