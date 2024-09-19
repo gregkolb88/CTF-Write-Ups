@@ -145,7 +145,7 @@ cat s****
 ```
 <img width="95" alt="image" src="https://github.com/user-attachments/assets/4334ba1a-7b48-4fa9-b186-8b5f525c6133">
 
-After multiple tries, I am finally successful logging in (user=slade, pass=M3tahuman). It turns out, the login name is not capitalized. It's the little things. 
+After multiple tries, I am finally successful logging in (user=slade, pass=M********). It turns out, the login name is not capitalized. It's the little things. 
 ```
 ssh slade@10.10.195.108
 ```
