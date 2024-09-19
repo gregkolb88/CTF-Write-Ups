@@ -34,7 +34,7 @@ Looking at the source code, I notice the word "arrow" is bolded. Perhaps this co
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/606321cb-a1db-486b-adfe-27aabc5cd011">
 
-To answer the first question, I run feroxbuster to scan the web server for a list of directories. We discover two notable directories: http://10.10.195.108/island/ & http://10.10.195.108/island/2***/.
+To answer the first question (What is the Web Directory you found?), I run feroxbuster to scan the web server for a list of directories. We discover two notable directories: http://10.10.195.108/island/ & http://10.10.195.108/island/2***/.
 
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
