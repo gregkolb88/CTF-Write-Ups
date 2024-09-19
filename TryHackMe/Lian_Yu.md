@@ -73,6 +73,18 @@ After trying a few options using cyberchef (https://gchq.github.io/CyberChef/), 
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/087ad0ac-aff8-4767-a995-588dc68b2397">
 
+Next, I login into FTP with the credentials we found earlier. 
+
+```
+ftp 10.10.195.108
+```
+
+After logging into FTP and listing all the files, I am presented with four notable files (.other_user, Leave_me_alone.png, Queen's_Gambit.png, and aa.jpg). I get them all for further evaluation. 
+
+![image](https://github.com/user-attachments/assets/08a7ed69-e210-4a88-8960-f698b100e2b4)
+
+![image](https://github.com/user-attachments/assets/a5db7548-70d4-42b2-9568-c6595f80af4a)
+
 
 ```
 exiftool aa.jpg
