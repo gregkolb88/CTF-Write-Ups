@@ -69,7 +69,7 @@ This was successful and gives me the answer to the second question (What is the 
 
 ![image](https://github.com/user-attachments/assets/3bd97948-f993-472b-b4ed-98c1423da49c)
 
-After trying a few options using cyberchef (https://gchq.github.io/CyberChef/), it turned out to be encoded through Base58. Decoding it provided me with the FTP password. 
+After trying a few options using cyberchef (https://gchq.github.io/CyberChef/), it turned out to be encoded through Base58. Decoding it provided me with the FTP password, which is the answer to the third question (what is the FTP Password?). 
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/087ad0ac-aff8-4767-a995-588dc68b2397">
 
