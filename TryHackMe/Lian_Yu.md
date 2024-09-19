@@ -65,7 +65,7 @@ feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-
 ```
 <img width="895" alt="image" src="https://github.com/user-attachments/assets/cab66e53-8b33-4a7a-9d78-65cc8fc7fa85">
 
-This was successful. Navigating to this subdirectory gives me what looks to be an encrypted password. 
+This was successful and gives me the answer to the second question (What is the file name you found?). Navigating to this subdirectory gives me what looks to be an encrypted password. 
 
 ![image](https://github.com/user-attachments/assets/3bd97948-f993-472b-b4ed-98c1423da49c)
 
