@@ -87,10 +87,40 @@ I get them all for further evaluation.
 
 ![image](https://github.com/user-attachments/assets/a5db7548-70d4-42b2-9568-c6595f80af4a)
 
+First I read the .other_user file. This gives me a backstory on the character Slade Wilson. This is potenially another login name for FTP or SSH. 
+
+```
+cat .other_user
+```
+
+![image](https://github.com/user-attachments/assets/58f2956a-a747-47ed-874a-fb5edd27c48b)
+
+
+Opening all of the pictures, two out of the three seem like ordinary pictures that are Arrow themed. However, the Leave_me_alone.png file is throwing an error saying it is not a png file. 
+
+![image](https://github.com/user-attachments/assets/f42f62c4-604c-4a25-b95c-39f3a46d3f86)
+
+![image](https://github.com/user-attachments/assets/9963cde7-45cd-4731-812a-e49a28fd0d29)
+
+![image](https://github.com/user-attachments/assets/3e396376-7089-4faa-82a7-3149ff8fef9e)
+
+After doing some research, it seems like I can adjust the hex code in an editor to potentially fix this. 
+
+before
+
+![image](https://github.com/user-attachments/assets/195df849-7955-4c1d-9299-6ee7261bfd04)
+
+after
+
+![image](https://github.com/user-attachments/assets/1e9a61a5-9f28-4db0-b75b-0fd38e37bfc0)
+
+
+![image](https://github.com/user-attachments/assets/8bc30e27-9004-40fe-baef-d9983f3735fd)
 
 ```
 exiftool aa.jpg
 ```
+![image](https://github.com/user-attachments/assets/5ffa5d0f-a92e-4914-a658-f3119de2f00e)
 
 ```
 exiftool Leave_me_alone.png
@@ -99,6 +129,7 @@ exiftool Leave_me_alone.png
 ```
 exiftool Queen's_Gambit.png
 ```
+![image](https://github.com/user-attachments/assets/bc24714a-1ac2-4e3b-be72-c0006a51aae8)
 
 ```
 hexedit Leave_me_alone.png
