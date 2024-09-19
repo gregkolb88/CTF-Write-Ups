@@ -95,7 +95,7 @@ cat .other_user
 
 ![image](https://github.com/user-attachments/assets/58f2956a-a747-47ed-874a-fb5edd27c48b)
 
-Opening all of the pictures, two out of the three seem like ordinary pictures that are Arrow themed. However, the Leave_me_alone.png file is throwing an error saying it is not a png file. 
+Opening all of the pictures, two out of the three seem like ordinary pictures that are Arrow themed. However, the Leave_me_alone.png file is throwing an error saying it is not a .png file. 
 
 ![image](https://github.com/user-attachments/assets/f42f62c4-604c-4a25-b95c-39f3a46d3f86)
 
