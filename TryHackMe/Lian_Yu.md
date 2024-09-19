@@ -15,6 +15,8 @@ Then I rescan the live ports using -sV to find the version and -O to find the op
 ```
 nmap -p21,22,80,111,46392 -sV -O 10.10.195.108
 ```
+![image](https://github.com/user-attachments/assets/e54e596c-a558-4edb-8179-e53857c2dfdd)
+
 To answer the first question, I run feroxbuster to scan the web server for a list of directories. 
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
