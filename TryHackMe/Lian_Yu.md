@@ -73,7 +73,7 @@ After trying a few options using cyberchef (https://gchq.github.io/CyberChef/), 
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/087ad0ac-aff8-4767-a995-588dc68b2397">
 
-Next, I login into FTP with the credentials we found earlier. 
+Next, I login into FTP with the credentials I found earlier. 
 
 ```
 ftp 10.10.195.108
