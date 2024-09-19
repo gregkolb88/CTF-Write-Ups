@@ -150,12 +150,23 @@ After multiple tries, I am finally successful logging in. It turns out, the logi
 ssh slade@10.10.195.108
 ```
 Login is successful and running the ls and cat commands provides me with the first flag. 
+```
+ls
+```
+
+```
+cat user.txt
+```
 
 ![image](https://github.com/user-attachments/assets/77a8aacc-7bf3-493f-a4f4-0817ca7e30a7)
 
 <img width="286" alt="image" src="https://github.com/user-attachments/assets/a04625cf-f493-4808-9a2a-bfedb9ae85e5">
 
 I am unable to change directories however running the sudo -l command gives me a way to escalate privileges
+
+```
+sudo -l
+```
 
 ![image](https://github.com/user-attachments/assets/47025cd9-e6e3-4b4c-90c3-38e346166026)
 
