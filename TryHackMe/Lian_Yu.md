@@ -1,8 +1,8 @@
-
+I first ping the system to verify it's up and running. 
 ```
 ping 10.10.10.10
 ```
-
+Next I run two nmap scans. The first one I use -p- to scan all ports instead of the top 1000, I use 
 ```
 nmap -p- -T5 -Pn 10.10.10.10
 ```
