@@ -29,6 +29,8 @@ To answer the first question, I run feroxbuster to scan the web server for a lis
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 ```
 ![image](https://github.com/user-attachments/assets/97dc9541-d6ea-429f-a182-0e46b73ce6fd)
+
+The first website gives me a message with the words Lian_Yu bolded and hints at a code word that is not there. 
 ![image](https://github.com/user-attachments/assets/c72de9c7-45dc-4ea4-aa95-3895080b66bf)
 ![image](https://github.com/user-attachments/assets/460d8574-6db1-49c8-8290-c65fd79e7c8c)
 ![image](https://github.com/user-attachments/assets/0e1f833c-6776-4229-83be-fd15808ce620)
