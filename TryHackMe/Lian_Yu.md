@@ -23,10 +23,12 @@ Next, I navigate to the website to find any clues.
 Looking at the source code, I notice the word "arrow" is bolded. Perhaps this could be a password?
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/606321cb-a1db-486b-adfe-27aabc5cd011">
 
-To answer the first question, I run feroxbuster to scan the web server for a list of directories. 
+To answer the first question, I run feroxbuster to scan the web server for a list of directories. We discover two notable directories: http://10.10.195.108/island/ & http://10.10.195.108/island/2100/.
+
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
 ```
+![image](https://github.com/user-attachments/assets/97dc9541-d6ea-429f-a182-0e46b73ce6fd)
 ![image](https://github.com/user-attachments/assets/c72de9c7-45dc-4ea4-aa95-3895080b66bf)
 ![image](https://github.com/user-attachments/assets/460d8574-6db1-49c8-8290-c65fd79e7c8c)
 ![image](https://github.com/user-attachments/assets/0e1f833c-6776-4229-83be-fd15808ce620)
