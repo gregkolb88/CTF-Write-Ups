@@ -73,7 +73,7 @@ After trying a few options using cyberchef (https://gchq.github.io/CyberChef/), 
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/087ad0ac-aff8-4767-a995-588dc68b2397">
 
-Next, I login into FTP with the credentials I found earlier. 
+Next, I login into FTP with the credentials I found earlier (user=vigilante, pass=!********). 
 
 ```
 ftp 10.10.195.108
@@ -145,7 +145,7 @@ cat s****
 ```
 <img width="95" alt="image" src="https://github.com/user-attachments/assets/4334ba1a-7b48-4fa9-b186-8b5f525c6133">
 
-After multiple tries, I am finally successful logging in. It turns out, the login name is not capitalized. It's the little things. 
+After multiple tries, I am finally successful logging in (user=slade, pass=M3tahuman). It turns out, the login name is not capitalized. It's the little things. 
 ```
 ssh slade@10.10.195.108
 ```
