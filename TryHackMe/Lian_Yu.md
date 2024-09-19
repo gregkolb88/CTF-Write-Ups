@@ -23,7 +23,7 @@ Next, I navigate to the website to find any clues.
 Looking at the source code, I notice the word "arrow" is bolded. Perhaps this could be a password?
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/606321cb-a1db-486b-adfe-27aabc5cd011">
 
-To answer the first question, I run feroxbuster to scan the web server for a list of directories. We discover two notable directories: http://10.10.195.108/island/ & http://10.10.195.108/island/2100/.
+To answer the first question, I run feroxbuster to scan the web server for a list of directories. We discover two notable directories: http://10.10.195.108/island/ & http://10.10.195.108/island/2***/.
 
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
@@ -38,7 +38,7 @@ After looking at the source code, I am presented with the code word which is v**
 
 <img width="516" alt="image" src="https://github.com/user-attachments/assets/caf56fa2-a9d9-4cf0-bb5b-7f6f982d5fc2">
 
-The second sub directory (http://10.10.195.108/island/2100/) gives me a message along with a youtube video that seems to have been taken down. 
+The second sub directory (http://10.10.195.108/island/2***/) gives me a message along with a youtube video that seems to have been taken down. 
 
 ![image](https://github.com/user-attachments/assets/0e1f833c-6776-4229-83be-fd15808ce620)
 
