@@ -158,7 +158,7 @@ ssh slade@10.10.195.108
 
 ![image](https://github.com/user-attachments/assets/47025cd9-e6e3-4b4c-90c3-38e346166026)
 
-navigating to GTFOBins (https://gtfobins.github.io/) I am able to use the 
+Navigating to GTFOBins (https://gtfobins.github.io/) I am able to use pkexec to elevate privelages to root. 
 
 
 ![image](https://github.com/user-attachments/assets/0e488525-c242-463e-83eb-3a28c751598e)
