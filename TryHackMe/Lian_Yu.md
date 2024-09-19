@@ -95,7 +95,6 @@ cat .other_user
 
 ![image](https://github.com/user-attachments/assets/58f2956a-a747-47ed-874a-fb5edd27c48b)
 
-
 Opening all of the pictures, two out of the three seem like ordinary pictures that are Arrow themed. However, the Leave_me_alone.png file is throwing an error saying it is not a png file. 
 
 ![image](https://github.com/user-attachments/assets/f42f62c4-604c-4a25-b95c-39f3a46d3f86)
@@ -123,18 +122,6 @@ The picture now seems to indicat that it has something to do with the password.
 ![image](https://github.com/user-attachments/assets/8bc30e27-9004-40fe-baef-d9983f3735fd)
 
 
-![image](https://github.com/user-attachments/assets/5ffa5d0f-a92e-4914-a658-f3119de2f00e)
-
-
-
-```
-exiftool Queen's_Gambit.png
-```
-![image](https://github.com/user-attachments/assets/bc24714a-1ac2-4e3b-be72-c0006a51aae8)
-
-```
-hexedit Leave_me_alone.png
-```
 
 
 
