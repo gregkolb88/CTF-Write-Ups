@@ -17,6 +17,12 @@ nmap -p21,22,80,111,46392 -sV -O 10.10.195.108
 ```
 ![image](https://github.com/user-attachments/assets/e54e596c-a558-4edb-8179-e53857c2dfdd)
 
+Next, I navigate to the website to find any clues. 
+![image](https://github.com/user-attachments/assets/4771f5e1-c27f-49fa-8b56-ac9c92edaefd)
+
+Looking at the source code, I notice the word "arrow" is bolded. Perhaps this could be a password?
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/606321cb-a1db-486b-adfe-27aabc5cd011">
+
 To answer the first question, I run feroxbuster to scan the web server for a list of directories. 
 ```
 feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
