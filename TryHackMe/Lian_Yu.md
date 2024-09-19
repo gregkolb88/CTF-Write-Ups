@@ -131,7 +131,7 @@ I unzip the ss.zip file which gives me two more files.
 unzip ss.zip
 ```
 
-Reading the passwd.txt file 
+Reading the passwd.txt file gives me a fun note, continuing the Arrow theme. 
 ```
 cat passwd.txt
 ```
