@@ -26,7 +26,7 @@ nmap -p21,22,80,111,46392 -sV -O 10.10.195.108
 
 ![image](https://github.com/user-attachments/assets/e54e596c-a558-4edb-8179-e53857c2dfdd)
 
-Next, I navigate to the website to find any clues. 
+Next, I navigate to the website to look for any ways forward. 
 
 ![image](https://github.com/user-attachments/assets/4771f5e1-c27f-49fa-8b56-ac9c92edaefd)
 
