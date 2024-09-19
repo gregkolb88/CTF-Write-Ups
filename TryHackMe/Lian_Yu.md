@@ -46,7 +46,7 @@ The first subdirectory (http://10.10.195.108/island/) gives me a message with th
 
 ![image](https://github.com/user-attachments/assets/c72de9c7-45dc-4ea4-aa95-3895080b66bf)
 
-After looking at the source code, I am presented with the code word which is v********.
+After looking at the source code, I am presented with the code word which is vigilante.
 
 <img width="516" alt="image" src="https://github.com/user-attachments/assets/caf56fa2-a9d9-4cf0-bb5b-7f6f982d5fc2">
 
