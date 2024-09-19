@@ -30,13 +30,15 @@ feroxbuster -u http://10.10.195.108 -w /usr/share/dirbuster/wordlists/directory-
 ```
 ![image](https://github.com/user-attachments/assets/97dc9541-d6ea-429f-a182-0e46b73ce6fd)
 
-The first website gives me a message with the words Lian_Yu bolded and hints at a code word that is not there.
+The first subdirectory (http://10.10.195.108/island/) gives me a message with the words Lian_Yu bolded and hints at a code word that is not there.
 
 ![image](https://github.com/user-attachments/assets/c72de9c7-45dc-4ea4-aa95-3895080b66bf)
 
 After looking at the source code, I am presented with the code word which is v********.
 
 <img width="516" alt="image" src="https://github.com/user-attachments/assets/caf56fa2-a9d9-4cf0-bb5b-7f6f982d5fc2">
+
+The second sub directory (http://10.10.195.108/island/2100/) gives me a message along with a youtube video that seems to have been taken down. 
 
 ![image](https://github.com/user-attachments/assets/0e1f833c-6776-4229-83be-fd15808ce620)
 
